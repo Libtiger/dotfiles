@@ -6,7 +6,7 @@ link_dir ()
     
 }
 
-if [ -d "~/.config" ];then
+if [ ! -d "~/.config" ];then
     echo "file dont exist"
     mkdir ~/.config
 else

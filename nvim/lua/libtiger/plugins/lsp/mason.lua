@@ -30,6 +30,7 @@ return {
 				"lua_ls",
 				"clangd",
 				"cmake",
+				"python-lsp-server",
 			},
 		})
 

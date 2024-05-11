@@ -6,6 +6,11 @@ keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 keymap.set("n", "Q", "<cmd>qa<CR>", { desc = "Close nvim" })
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 
+keymap.set("n", "H", "^", { desc = "Move cursor to line start" })
+keymap.set("n", "L", "$", { desc = "Move cursor to line end" })
+keymap.set("n", "J", "10j", { desc = "Move down 10 lines" })
+keymap.set("n", "K", "^", { desc = "Move up 10 lines" })
+
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" }) -- split window horizontally
