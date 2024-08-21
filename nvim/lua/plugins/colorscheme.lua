@@ -6,10 +6,4 @@ return {
       flavour = "macchiato",
     },
   },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin",
-    },
-  },
 }
