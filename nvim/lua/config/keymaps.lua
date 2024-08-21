@@ -4,3 +4,4 @@
 local map = vim.keymap.set
 
 map("i", "jk", "<Esc>", { desc = "Use jk to return n-mode from i-mode" })
+map("n", "<CR>", "o<Esc>", { desc = "Enter new line" })
