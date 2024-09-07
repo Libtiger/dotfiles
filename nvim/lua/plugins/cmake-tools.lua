@@ -6,7 +6,7 @@ return {
       direction = "float",
     },
     keys = {
-      { "<F8>", "<cmd>ToggleTerm<cr>", desc = { "Toggle an float terminal" } },
+      { "<F8>", "<cmd>ToggleTerm<cr>", desc = "Toggle an float terminal" },
     },
   },
   {
