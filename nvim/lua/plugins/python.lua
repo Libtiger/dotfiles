@@ -1,5 +1,27 @@
 return {
   {
+    "williamboman/mason.nvim",
+    opts = {
+      pip = {
+        install_args = { "-i", "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple" },
+      },
+    },
+  },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        basedpyright = {
+          settings = {
+            basedpyright = {
+              typeCheckingMode = "basic",
+            },
+          },
+        },
+      },
+    },
+  },
+  {
     "linux-cultist/venv-selector.nvim",
     branch = "regexp", -- This is the regexp branch, use this until its merged with the main branch later
     opts = {
