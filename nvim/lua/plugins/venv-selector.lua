@@ -7,10 +7,10 @@ return {
       settings = {
         search = {
           anaconda_envs = {
-            command = "fdfind bin/python$ $HOME/tools/mambaforge/envs --full-path --color never -E /proc", -- change path here to your anaconda envs
+            command = "fdfind bin/python$ $HOME/tools/miniforge/envs --full-path --color never -E /proc", -- change path here to your anaconda envs
           },
           anaconda_base = {
-            command = "fdfind /python$ $HOME/tools/mambaforge/bin --full-path --color never -E /proc", -- change path here to your anaconda base
+            command = "fdfind /python$ $HOME/tools/miniforge/bin --full-path --color never -E /proc", -- change path here to your anaconda base
           },
         },
       },

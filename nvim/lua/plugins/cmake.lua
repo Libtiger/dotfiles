@@ -1,15 +1,5 @@
 return {
   {
-    "akinsho/toggleterm.nvim",
-    version = "*",
-    opts = {
-      direction = "float",
-    },
-    keys = {
-      { "<F8>", "<cmd>ToggleTerm<cr>", desc = "Toggle an float terminal" },
-    },
-  },
-  {
     "Civitasv/cmake-tools.nvim",
     opts = {
       cmake_regenerate_on_save = false, -- auto generate when save CMakeLists.txt
