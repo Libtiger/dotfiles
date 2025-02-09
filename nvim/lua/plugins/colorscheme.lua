@@ -1,9 +1,9 @@
 return {
-  {
-    "catppuccin/nvim",
-    name = "catppuccin",
-    opt = {
-      flavour = "mocha",
-    },
-  },
+	{
+		"catppuccin/nvim",
+		name = "catppuccin",
+		opt = {
+			flavour = "mocha",
+		},
+	},
 }
