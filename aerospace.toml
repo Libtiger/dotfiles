@@ -179,3 +179,11 @@ run = ['layout floating']
 [[on-window-detected]]
 if.app-id = 'com.mac.utility.media.hub'
 run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'xyz.chatboxapp.app'
+run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'com.torusknot.SourceTreeNotMAS'
+run = ['layout floating']
