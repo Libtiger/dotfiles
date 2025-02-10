@@ -9,12 +9,16 @@ create_softlink() {
   # starship config
   ln -s ./starship.toml ~/.config/
 
-  # aerospace config
-  ln -s ./aerospace.toml ~/.aerospace.toml
+  if [[ "$(uname)" == "Darwin"]]; then
+      echo "This is Macos system."
+      echo "Add aerospace config."
+      # aerospace config
+      ln -s ./aerospace.toml ~/.aerospace.toml
+  fi
 }
 
 if [ ! -d "~/.config" ]; then
-  echo "file dont exist"
+  echo "Config dir don't exist, creating..."
   mkdir ~/.config
 else
   create_softlink
