@@ -1,4 +1,4 @@
-config_dir="$HOME/test"
+config_dir="$HOME/.config"
 
 mkdir_recursive() {
     src_dir=$1
